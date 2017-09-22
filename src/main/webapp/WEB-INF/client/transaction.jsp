@@ -16,12 +16,13 @@
 		<div class="content">
 			<!-- Page Heading Start -->
 			<div class="page-heading">
-			<span style="float:right;">
-				<a href='<spring:url value="createtransaction" />' class="btn btn-success btn-lg">Create New Transaction</a></span>
+				<span style="float: right;"> <a
+					href='<spring:url value="createtransaction" />'
+					class="btn btn-success btn-lg"> New Entry</a></span>
 				<h1>
 					<i class='fa fa-file'></i> TRANSACTIONS
 				</h1>
-				
+
 			</div>
 			<!-- Page Heading End-->
 
@@ -29,7 +30,7 @@
 
 				<div class="col-md-12">
 					<div class="widget">
-						
+
 						<div class="widget-content">
 							<br>
 							<div class="table-responsive">
@@ -39,26 +40,20 @@
 										width="100%">
 										<thead>
 											<tr>
-												<th>Name</th>
-												<th>Position</th>
-												<th>Office</th>
-												<th>Age</th>
-												<th>Start date</th>
-												<th>Salary</th>
+												<th>NO.</th>
+												<th>Date of Entry</th>
+												<th>Type Of Vehicle</th>
+												<th>Year Of Manufacturing</th>
+												<th>Chasis Number</th>
+												<th>Engine Number</th>
+												<th>Quantity</th>
+												<th>Institution Supplied To</th>
+												<th>Date Supplied</th>
+												<th>Import Duty Exemptions</th>
+												<th>Attached Documents</th>
+												<th>Edit</th>
 											</tr>
 										</thead>
-
-										<tfoot>
-											<tr>
-												<th>Name</th>
-												<th>Position</th>
-												<th>Office</th>
-												<th>Age</th>
-												<th>Start date</th>
-												<th>Salary</th>
-											</tr>
-										</tfoot>
-
 										<tbody>
 											<tr>
 												<td>Tiger Nixon</td>
@@ -67,8 +62,6 @@
 												<td>61</td>
 												<td>2011/04/25</td>
 												<td>$320,800</td>
-											</tr>
-											<tr>
 												<td>Garrett Winters</td>
 												<td>Accountant</td>
 												<td>Tokyo</td>
@@ -76,7 +69,7 @@
 												<td>2011/07/25</td>
 												<td>$170,750</td>
 											</tr>
-											
+
 										</tbody>
 									</table>
 								</form>

@@ -4,25 +4,63 @@
     <spring:url value="/resources/" var="resources"></spring:url>
     
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<footer> Huban Creative &copy; 2014
-				<div class="footer-links pull-right">
-					<a href="#">About</a><a href="#">Support</a><a href="#">Terms
-						of Service</a><a href="#">Legal</a><a href="#">Help</a><a href="#">Contact
-						Us</a>
-				</div>
-				</footer>
-				<!-- Footer End -->
-			</div>
+  <!-- Footer Start -->
+            <footer>
+                Huban Creative &copy; 2014
+                <div class="footer-links pull-right">
+                	<a href="#">About</a><a href="#">Support</a><a href="#">Terms of Service</a><a href="#">Legal</a><a href="#">Help</a><a href="#">Contact Us</a>
+                </div>
+            </footer>
+            <!-- Footer End -->			
+            </div>
 			<!-- ============================================================== -->
 			<!-- End content here -->
 			<!-- ============================================================== -->
 
-		</div>
+        </div>
 		<!-- End right content -->
 
+		<!-- Modal New message -->	
+		<div class="md-modal md-slide-stick-top" id="new-message">
+			<div class="md-content">
+			<div class="md-close-btn"><a class="md-close"><i class="fa fa-times"></i></a></div>
+				<h3><strong>New</strong> Message</h3>
+				<div>
+					<form role="form">
+						<div class="form-group">
+							<input type="text" class="form-control input-lg" placeholder="Message to">
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-control input-lg" placeholder="Message subject">
+						</div>
+						<div class="form-group">
+							<textarea class="summernote-small form-control"></textarea>
+						</div>
+						<div class="row">
+							<div class="col-xs-8">
+								<button type="submit" class="btn btn-success btn-sm">Send</button>
+								<button class="btn btn-warning btn-sm">Draft</button>
+							</div>
+							<div class="col-xs-4">
+								<p class="quick-post message">
+									<a><i class="fa fa-picture-o"></i></a>
+									<a><i class="fa fa-video-camera"></i></a>
+									<a><i class="icon-attach-3" data-toggle="tooltip" title="Business Contract.pdf - 2,238KB"></i></a>
+								</p>
+							</div>
+						</div>	
+					</form>
+				</div>
+			</div>
+		</div>
+		<!--
+		MODAL OVERLAY
+		Always place this div at the end of the page content
+		-->
+		<div class="md-overlay"></div>
 	</div>
 	<!-- End of page -->
-	<!-- the overlay modal element -->
+		<!-- the overlay modal element -->
 	<div class="md-overlay"></div>
 	<!-- End of eoverlay modal -->
 	<script>
@@ -74,6 +112,9 @@
 	<script src="${resources}assets/libs/bootstrap-inputmask/inputmask.js"></script>
 	<script src="${resources}assets/libs/summernote/summernote.js"></script>
 	<script src="${resources}assets/js/pages/forms.js"></script>
-
+	<script src="${resources}assets/libs/summernote/summernote.js"></script>
+	<script src="${resources}assets/js/pages/new-message.js"></script>
+	<script src="${resources}assets/libs/dropzone/dropzone.min.js"></script>
+	
 </body>
 </html>

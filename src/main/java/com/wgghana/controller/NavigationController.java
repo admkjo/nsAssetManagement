@@ -27,6 +27,11 @@ public class NavigationController {
 		return "client/edittransaction";
 	}
 
+	@RequestMapping(value = "/client_document")
+	public String clientDocument() {
+		return "client/client_document";
+	}
+	
 	@RequestMapping(value = "/clientdashboard")
 	public String clientDashboard() {
 		return "client/clientdashboard";

@@ -7,7 +7,7 @@
 <spring:url value="/resources/" var="resources"></spring:url>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <head>
-<title>Insert title here</title>
+<title>NSA Asset Management</title>
 <meta charset="UTF-8">
 <meta name="viewport"
 	content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -55,7 +55,7 @@
 <!-- Extra CSS Libraries End -->
 <link href="${resources}assets/css/style-responsive.css"
 	rel="stylesheet" />
-	
+		
 	<!-- Extra CSS Libraries Start -->
                 <link href="${resources}assets/libs/jquery-datatables/css/dataTables.bootstrap.css" rel="stylesheet" type="text/css" />
                 <link href="${resources}assets/libs/jquery-datatables/extensions/TableTools/css/dataTables.tableTools.css" rel="stylesheet" type="text/css" />
@@ -64,6 +64,8 @@
                 <link href="${resources}assets/libs/summernote/summernote.css" rel="stylesheet" type="text/css" />
                 <link href="${resources}assets/css/style.css" rel="stylesheet" type="text/css" />
                 <link href="${resources}assets/libs/summernote/summernote.css" rel="stylesheet" type="text/css" />
+                <link href="${resources}assets/css/style.css" rel="stylesheet" type="text/css" />
+                <link href="${resources}assets/libs/dropzone/css/dropzone.css" rel="stylesheet" type="text/css" />
                 <link href="${resources}assets/css/style.css" rel="stylesheet" type="text/css" />
                 <!-- Extra CSS Libraries End -->
 
