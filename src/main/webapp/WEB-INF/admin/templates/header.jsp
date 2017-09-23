@@ -67,6 +67,13 @@
                 <link href="${resources}assets/css/style.css" rel="stylesheet" type="text/css" />
                 <link href="${resources}assets/libs/dropzone/css/dropzone.css" rel="stylesheet" type="text/css" />
                 <link href="${resources}assets/css/style.css" rel="stylesheet" type="text/css" />
+               
+                <link href="${resources}assets/libs/bootstrap-select/bootstrap-select.min.css" rel="stylesheet" type="text/css" />
+                <link href="${resources}assets/libs/bootstrap-select2/select2.css" rel="stylesheet" type="text/css" />
+                <link href="${resources}assets/libs/bootstrap-xeditable/css/bootstrap-editable.css" rel="stylesheet" type="text/css" />
+                <link href="${resources}assets/libs/bootstrap-select2/select2.css" rel="stylesheet" type="text/css" />
+                <link href="${resources}assets/css/style.css" rel="stylesheet" type="text/css" />
+        
                 <!-- Extra CSS Libraries End -->
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -238,7 +245,10 @@
 								class='icon-home-3'></i> <span>Dashboard</span> <span
 								class="pull-right"> </span> </a></li>
 						<li><a href='<spring:url value="institutions" />'><i
-								class='fa fa-building-o'></i> <span>Institutions</span> <span
+								class='fa fa-building-o'></i> <span>Government Institutions</span> <span
+								class="pull-right"> </span> </a></li>
+								<li><a href='<spring:url value="vendors" />'><i
+								class='fa fa- fa-truck'></i> <span>Automobile Vendors</span> <span
 								class="pull-right"> </span> </a></li>
 						<li><a href='<spring:url value="admin_inbox" />'><i
 								class='fa fa-envelope'></i> <span>Letters</span> <span
@@ -253,12 +263,13 @@
 								class='fa fa-files-o'></i><span>Reports</span> <span
 								class="pull-right"><i class="fa fa-angle-down"></i></span></a>
 							<ul>
-								<li><a href='#'><span>Report One</span></a></li>
+								<li><a href='#'><span>Government Institution</span></a></li>
+								<li><a href='#'><span>Automobile Vendors</span></a></li>
 
 							</ul></li>
-						<li><a href='<spring:url value="settings" />'><i
+					<%-- 	<li><a href='<spring:url value="settings" />'><i
 								class='fa fa-gears (alias)'></i> <span>Settings</span> <span
-								class="pull-right"> </span> </a></li>
+								class="pull-right"> </span> </a></li> --%>
 
 
 					</ul>

@@ -116,5 +116,17 @@
 	<script src="${resources}assets/js/pages/new-message.js"></script>
 	<script src="${resources}assets/libs/dropzone/dropzone.min.js"></script>
 	
+	<script src="${resources}assets/libs/bootstrap-select/bootstrap-select.min.js"></script>
+	<script src="${resources}assets/libs/bootstrap-inputmask/inputmask.js"></script>
+	<script src="${resources}assets/libs/bootstrap-xeditable/js/bootstrap-editable.min.js"></script>
+	<script src="${resources}assets/libs/bootstrap-xeditable/demo/jquery.mockjax.js"></script>
+	<script src="${resources}assets/libs/bootstrap-xeditable/demo/demo-mock.js"></script>
+	<script src="${resources}assets/libs/bootstrap-select2/select2.min.js"></script>
+	<script src="${resources}assets/libs/jquery-clndr/moment-2.5.1.js"></script>
+	<script src="${resources}assets/libs/bootstrap-typeahead/bootstrap3-typeahead.min.js"></script>
+	<script src="${resources}assets/libs/ckeditor/ckeditor.js"></script>
+	<script src="${resources}assets/libs/ckeditor/adapters/jquery.js"></script>
+	<script src="${resources}assets/js/pages/advanced-forms.js"></script>
+	
 </body>
 </html>

@@ -31,7 +31,7 @@ public class NavigationController {
 	public String clientDocument() {
 		return "client/client_document";
 	}
-	
+
 	@RequestMapping(value = "/clientdashboard")
 	public String clientDashboard() {
 		return "client/clientdashboard";
@@ -117,6 +117,16 @@ public class NavigationController {
 		return "admin/editinstitution";
 	}
 
+	@RequestMapping(value = "/addvendor")
+	public String addVendor() {
+		return "admin/addvendor";
+	}
+
+	@RequestMapping(value = "/editvendor")
+	public String editVendor() {
+		return "admin/editvendor";
+	}
+
 	@RequestMapping(value = "/institutions")
 	public String institutions() {
 		return "admin/institutions";
@@ -132,9 +142,34 @@ public class NavigationController {
 		return "admin/memo";
 	}
 
+	@RequestMapping(value = "/creatememo")
+	public String createMemo() {
+		return "admin/creatememo";
+	}
+
+	@RequestMapping(value = "/selectedmemo")
+	public String selectedMemo() {
+		return "admin/selectedmemo";
+	}
+	
+	@RequestMapping(value = "/draftmemo")
+	public String draftMemo() {
+		return "admin/draftmemo";
+	}
+	
 	@RequestMapping(value = "/useraccount")
 	public String userAccount() {
 		return "admin/useraccount";
+	}
+
+	@RequestMapping(value = "/create_useraccount")
+	public String createUseraccount() {
+		return "admin/create_useraccount";
+	}
+
+	@RequestMapping(value = "/edit_useraccount")
+	public String editUseraccount() {
+		return "admin/edit_useraccount";
 	}
 
 	@RequestMapping(value = "/report")
@@ -145,5 +180,10 @@ public class NavigationController {
 	@RequestMapping(value = "/settings")
 	public String settings() {
 		return "admin/settings";
+	}
+
+	@RequestMapping(value = "/vendors")
+	public String vendors() {
+		return "admin/vendors";
 	}
 }

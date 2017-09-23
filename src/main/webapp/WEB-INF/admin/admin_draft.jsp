@@ -16,9 +16,6 @@
 		<div class="content">
 			<!-- Page Heading Start -->
 			<div class="page-heading">
-			<span style="float: right;"> <a
-					href='<spring:url value="institutions" />'
-					class="btn btn-danger btn-lg">Cancel</a></span>
 				<h1>
 					<i class='fa fa-file'></i>New Institution
 				</h1>
@@ -33,18 +30,28 @@
 					<div class="widget-content padding">
 						<form class="form-horizontal" role="form">
 						  <div class="form-group">
-							<label for="input-text" class="col-sm-2 control-label">Institution Name</label>
+							<label for="input-text" class="col-sm-2 control-label">name</label>
 							<div class="col-sm-10">
 							  <input type="text" class="form-control" id="input-text" placeholder="">
 							</div>
 						  </div>
 						  <div class="form-group">
-							<label for="input-text-help" class="col-sm-2 control-label">Ministry</label>
+							<label for="input-text-help" class="col-sm-2 control-label">name</label>
 							<div class="col-sm-10">
 							  <input type="text" class="form-control" id="input-text-help" placeholder="">
 							</div>
 						  </div>
-						  
+						  <div class="form-group">
+							<label for="inputPassword" class="col-sm-2 control-label">name</label>
+							<div class="col-sm-10">
+							  <input type="password" class="form-control" id="inputPassword" placeholder="">
+							</div>
+						  </div>
+						  <div class="form-group">
+							<label for="input-text-disabled" class="col-sm-2 control-label">name</label>
+							<div class="col-sm-10">
+							  <input type="text" class="form-control" id="input-text-disabled" placeholder="" disabled>
+							</div>
 						  </div>
 						   <button type="submit" class="btn btn-default">Submit</button>
 						  </div>

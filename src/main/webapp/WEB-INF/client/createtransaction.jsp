@@ -101,11 +101,19 @@
 									</div>
 								</div>
 							</div>
-							<button type="submit" class="btn btn-default">Submit</button>
+							<div class="form-group">
+							<div class="col-sm-10">
+								<a href='<spring:url value="client_document" />'><span
+									class="btn btn-success md-close">Attach Document</span></a>
+									</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-offset-5 col-sm-5">
+									<button type="submit" class="btn btn-lg btn-default">Submit</button>
+								</div>
+							</div>
+						</form>
 					</div>
-					</form>
-					<a href='<spring:url value="client_document" />'><button
-									class="btn btn-success md-close">Attach Document</button></a>
 				</div>
 
 			</div>

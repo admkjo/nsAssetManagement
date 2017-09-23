@@ -17,10 +17,10 @@
 			<!-- Page Heading Start -->
 			<div class="page-heading">
 				<span style="float: right;"> <a
-					href='<spring:url value="addinstitution" />'
-					class="btn btn-success btn-lg">Add New Institution</a></span>
+					href='<spring:url value="addvendor" />'
+					class="btn btn-success btn-lg">Add A New Vendor</a></span>
 				<h1>
-					<i class='fa fa-file'></i> INSTITUTIONS
+					<i class='fa fa-file'></i> AUTOMOBILE VENDORS
 				</h1>
 
 			</div>
@@ -40,14 +40,14 @@
 										width="100%">
 										<thead>
 											<tr>
-												<th>Institution Name</th>
-												<th>Ministry</th>
+												<th>Name</th>
+												<th>Description</th>
 											</tr>
 										</thead>
 										<tbody>
 											<tr>
-												<td>Ministry</td>
-												<td>Ministry</td>
+												<td>company 1</td>
+												<td>company 1</td>
 											</tr>
 										</tbody>
 									</table>

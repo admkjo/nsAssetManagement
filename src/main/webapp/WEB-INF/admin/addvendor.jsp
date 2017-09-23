@@ -16,13 +16,12 @@
 		<div class="content">
 			<!-- Page Heading Start -->
 			<div class="page-heading">
-			<span style="float: right;"> <a
-					href='<spring:url value="institutions" />'
-					class="btn btn-danger btn-lg">Cancel</a></span>
+				<span style="float: right;"> <a
+					href='<spring:url value="vendors" />' class="btn btn-danger btn-lg">Cancel</a></span>
 				<h1>
-					<i class='fa fa-file'></i>New Institution
+					<i class='fa fa-file'></i>New Vendor
 				</h1>
-				
+
 			</div>
 			<!-- Page Heading End-->
 
@@ -32,29 +31,33 @@
 
 					<div class="widget-content padding">
 						<form class="form-horizontal" role="form">
-						  <div class="form-group">
-							<label for="input-text" class="col-sm-2 control-label">Institution Name</label>
-							<div class="col-sm-10">
-							  <input type="text" class="form-control" id="input-text" placeholder="">
+							<div class="form-group">
+								<label for="input-text" class="col-sm-2 control-label">Name</label>
+								<div class="col-sm-10">
+									<input type="text" class="form-control" id="input-text"
+										placeholder="">
+								</div>
 							</div>
-						  </div>
-						  <div class="form-group">
-							<label for="input-text-help" class="col-sm-2 control-label">Ministry</label>
-							<div class="col-sm-10">
-							  <input type="text" class="form-control" id="input-text-help" placeholder="">
+							<div class="form-group">
+								<label for="input-text-help" class="col-sm-2 control-label">Description</label>
+								<div class="col-sm-10">
+									<input type="text" class="form-control" id="input-text-help"
+										placeholder="">
+								</div>
 							</div>
-						  </div>
-						  
-						  </div>
-						   <button type="submit" class="btn btn-default">Submit</button>
-						  </div>
-						  
+							<div class="form-group">
+								<div class="col-sm-10 col-sm-offset-1">
+									<button type="submit" class="btn btn-default">Save</button>
+								</div>
+							</div>
 						</form>
 					</div>
-					
+
 				</div>
+
 			</div>
+		</div>
 
 
-			<!-- Footer Start -->
-			<jsp:include page="templates/footer.jsp"></jsp:include>
+		<!-- Footer Start -->
+		<jsp:include page="templates/footer.jsp"></jsp:include>

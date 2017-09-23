@@ -15,60 +15,96 @@
 		<!-- ============================================================== -->
 		<br> <br>
 		<div class="content">
+			<!-- Page Heading Start -->
+			<div class="page-heading">
+				<h1>
+					<i class='fa fa-file'></i>INSTITUTION PROFILE
+				</h1>
+			</div>
+			<!-- Page Heading End-->
 			<div class="row">
-				<div class="col-sm-10">
+				<div class="col-sm-10 col-sm-offset-1 portlets">
 					<div class="widget">
-					<div class="widget-header">
-						<h2>
-							<strong>INSTITUTION DETAILS</strong>
-						</h2>
-					</div>
-					<div class="widget-content padding">
-						<p>Click to edit</p>
-						<table id="user" class="table table-bordered table-striped"
-							style="clear: both">
-							<tbody>
-								<tr>
-									<td width="35%">Institution Name</td>
-									<td width="65%"><a href="#" id="username" data-type="text"
-										data-pk="1" data-title="Enter username">superuser</a></td>
-								</tr>
-								<tr>
-									<td>Address</td>
-									<td><a href="#" id="firstname" data-type="text"
-										data-pk="1" data-placement="right" data-placeholder="Required"
-										data-title="Enter your firstname"></a></td>
-								</tr>
-								<tr>
-									<td>Email</td>
-									<td><a href="#" id="sex" data-type="select" data-pk="1"
-										data-value="" data-title="Select sex"></a></td>
-								</tr>
-								<tr>
-									<td>Phone</td>
-									<td><a href="#" id="group" data-type="select" data-pk="1"
-										data-value="5" data-source="/groups" data-title="Select group">Admin</a></td>
-								</tr>
-								<tr>
-									<td>Top Official To Contact</td>
-									<td><a href="#" id="status" data-type="select" data-pk="1"
-										data-value="0" data-source="/status"
-										data-title="Select status">Active</a></td>
-								</tr>
-
-								<tr>
-									<td>Official's Contact Info</td>
-									<td><a href="#" id="dob" data-type="combodate"
-										data-value="1984-05-15" data-format="YYYY-MM-DD"
-										data-viewformat="DD/MM/YYYY" data-template="D / MMM / YYYY"
-										data-pk="1" data-title="Select Date of birth"></a></td>
-								</tr>
-								
-							</tbody>
-						</table>
+						<div class="widget-content padding">
+							<form class="form-horizontal" role="form">
+								<div class="form-group">
+									<label for="input-text" class="col-sm-2 control-label">
+										Institution Name</label>
+									<div class="col-sm-10">
+										<input type="text" class="form-control" id="input-text"
+											placeholder="">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="input-text-help" class="col-sm-2 control-label">
+										Address</label>
+									<div class="col-sm-10">
+										<input type="text" class="form-control" id="input-text-help"
+											placeholder="">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="inputPassword" class="col-sm-2 control-label">Email</label>
+									<div class="col-sm-10">
+										<input type="text" class="form-control" id="inputPassword"
+											placeholder="">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="input-text-help" class="col-sm-2 control-label">
+										Phone</label>
+									<div class="col-sm-10">
+										<input type="text" class="form-control" id="input-text-help"
+											placeholder="">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="input-text-help" class="col-sm-2 control-label">
+										Company's Representative's Name</label>
+									<div class="col-sm-10">
+										<input type="text" class="form-control" id="input-text-help"
+											placeholder="">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="input-text-help" class="col-sm-2 control-label">
+										Company's Representative's Position</label>
+									<div class="col-sm-10">
+										<input type="text" class="form-control" id="input-text-help"
+											placeholder="">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="input-text-help" class="col-sm-2 control-label">
+										Company's Representative's Phone</label>
+									<div class="col-sm-10">
+										<input type="text" class="form-control" id="input-text-help"
+											placeholder="">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="input-text-help" class="col-sm-2 control-label">
+										Company's Representative's Email</label>
+									<div class="col-sm-10">
+										<input type="text" class="form-control" id="input-text-help"
+											placeholder="">
+									</div>
+								</div>
+						</div>
+						</form>
 					</div>
 				</div>
-			</div>		
+				<div class="row">
+					<div class="col-sm-offset-1 col-sm-3">
+						<a href='<spring:url value="institutionprofile" />'>
+							<div class="btn btn-success btn-lg">Save Edited Content</div>
+						</a>
+					</div>
+					<div class="col-sm-3">
+						<a href='<spring:url value="institutionprofile" />'>
+							<div class="btn btn-danger btn-lg">Cancel</div>
+						</a>
+					</div>
 				</div>
 			</div>
 
