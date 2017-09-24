@@ -173,12 +173,6 @@
 		<!-- Top Bar Start -->
 		<div class="topbar">
 			<div class="topbar-left">
-				<div class="logo">
-					<h1>
-						<a href="#"><img src="${resources}assets/img/logo.png"
-							alt="Logo"></a>
-					</h1>
-				</div>
 				<button class="button-menu-mobile open-left">
 					<i class="fa fa-bars"></i>
 				</button>
@@ -198,7 +192,7 @@
 							<li class="dropdown topbar-profile"><a href="#"
 								class="dropdown-toggle" data-toggle="dropdown"><span
 									class="rounded-image topbar-profile-image"><img
-										src="${resources}images/users/user-35.jpg"></span> Jane <strong>Doe</strong>
+										src="${resources}images/users/user-35.jpg"></span> User <strong>Doe</strong>
 									<i class="fa fa-caret-down"></i></a>
 								<ul class="dropdown-menu">
 									<li><a href="#">My Profile</a></li>
@@ -229,7 +223,7 @@
 					<div class="col-xs-4"></div>
 					<div class="col-xs-8">
 						<div class="profile-text">
-							Welcome <b>Jane</b>
+							Welcome <b>User</b>
 						</div>
 						<div class="profile-buttons"></div>
 					</div>
@@ -263,8 +257,8 @@
 								class='fa fa-files-o'></i><span>Reports</span> <span
 								class="pull-right"><i class="fa fa-angle-down"></i></span></a>
 							<ul>
-								<li><a href='#'><span>Government Institution</span></a></li>
-								<li><a href='#'><span>Automobile Vendors</span></a></li>
+								<li><a href='<spring:url value="supplied_veh_report" />' ><span>Supplied Vehicles Report</span></a></li>
+								<li><a href='<spring:url value="reconciliation_report" />'><span>Reconciliation Report</span></a></li>
 
 							</ul></li>
 					<%-- 	<li><a href='<spring:url value="settings" />'><i

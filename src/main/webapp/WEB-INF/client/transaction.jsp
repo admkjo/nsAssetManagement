@@ -50,24 +50,25 @@
 												<th>Institution Supplied To</th>
 												<th>Date Supplied</th>
 												<th>Import Duty Exemptions</th>
+												<th>Import Duty Details</th>
 												<th>Attached Documents</th>
-												<th>Edit</th>
 											</tr>
 										</thead>
 										<tbody>
 											<tr>
-												<td>Tiger Nixon</td>
-												<td>System Architect</td>
-												<td>Edinburgh</td>
-												<td>61</td>
-												<td>2011/04/25</td>
-												<td>$320,800</td>
-												<td>Garrett Winters</td>
-												<td>Accountant</td>
-												<td>Tokyo</td>
-												<td>63</td>
-												<td>2011/07/25</td>
-												<td>$170,750</td>
+												<td>1</td>
+												<td>2015-03-09</td>
+												<td>Toyota</td>
+												<td>2014-09-09</td>
+												<td>201125</td>
+												<td>320800</td>
+												<td>20</td>
+												<td>Ministry of Education</td>
+												<td>20-02-03</td>
+												<td>yes</td>
+												<td>import duty details</td>
+												<td><a href='<spring:url value="attached_docs" />'>
+												click to view attached docs</a></td>
 											</tr>
 
 										</tbody>

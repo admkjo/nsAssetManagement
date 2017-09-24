@@ -102,10 +102,44 @@
 								</div>
 							</div>
 							<div class="form-group">
-							<div class="col-sm-10">
-								<a href='<spring:url value="client_document" />'><span
-									class="btn btn-success md-close">Attach Document</span></a>
+								<label for="input-text-help" class="col-sm-2 control-label">
+								Import Duty Details</label>
+								<div class="col-sm-10">
+									<input type="text" class="form-control" id="input-text-help"
+										placeholder="">
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-sm-2 control-label">
+									DVLA Registration</label>
+								<div class="col-sm-10">
+									<div class="radio iradio">
+										<label> <input type="radio" name="optionsRadios"
+											id="optionsRadios1" value="option1" checked> Yes
+										</label>
 									</div>
+									<div class="radio iradio">
+										<label> <input type="radio" name="optionsRadios"
+											id="optionsRadios2" value="option2"> No
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="input-text-help" class="col-sm-2 control-label">
+								DVLA Registration Details</label>
+								<div class="col-sm-10">
+									<input type="text" class="form-control" id="input-text-help"
+										placeholder="">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="input-text-help" class="col-sm-2 control-label">
+								Payment Details </label>
+								<div class="col-sm-10">
+									<input type="text" class="form-control" id="input-text-help"
+										placeholder="Enter Cheque Payment Details">
+								</div>
 							</div>
 							<div class="form-group">
 								<div class="col-sm-offset-5 col-sm-5">

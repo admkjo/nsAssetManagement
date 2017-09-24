@@ -105,7 +105,7 @@
 	<!-- Begin page -->
 	<div class="container">
 		<div class="full-content-center">
-			<p class="text-center"><a href="${resources}#"><img src="${resources}assets/img/login-logo.png" alt="Logo"></a></p>
+			<p class="text-center"><a href="#"><img width="300px" height="80px" src="${resources}assets/img/login-logo.png" alt="Logo"></a></p>
 			<div class="login-wrap animated flipInX">
 				<div class="login-block">
 					<img src="${resources}images/users/default-user.png" class="img-circle not-logged-avatar">
@@ -120,12 +120,12 @@
 						</div>
 						
 						<div class="row">
-							<div class="col-sm-6">
+							<div class="col-sm-6 col-sm-offset-3">
 							<button type="submit" class="btn btn-success btn-block">LOGIN</button>
 							</div>
-							<div class="col-sm-6">
+						<%-- 	<div class="col-sm-6">
 							<a href="${resources}register.html" class="btn btn-default btn-block">Register</a>
-							</div>
+							</div> --%>
 						</div>
 					</form>
 				</div>

@@ -16,11 +16,8 @@
 		<div class="content">
 			<!-- Page Heading Start -->
 			<div class="page-heading">
-				<span style="float: right;"> <a
-					href='<spring:url value="create_useraccount" />'
-					class="btn btn-success btn-lg">Add New User</a></span>
 				<h1>
-					<i class='fa fa-file'></i> USER ACCOUNT
+					<i class='fa fa-file'></i> RECONCILIATION REPORT
 				</h1>
 
 			</div>
@@ -40,21 +37,36 @@
 										width="100%">
 										<thead>
 											<tr>
-												<th>Name</th>
-												<th>Department</th>
-												<th>Position</th>
-												<th>UserId</th>
-												<th>Password</th>
+												<th>NO.</th>
+												<th>Date of Entry</th>
+												<th>Type Of Vehicle</th>
+												<th>Year Of Manufacturing</th>
+												<th>Chasis Number</th>
+												<th>Engine Number</th>
+												<th>Quantity</th>
+												<th>Institution Supplied To</th>
+												<th>Date Supplied</th>
+												<th>Import Duty Exemptions</th>
+												<th>Attached Documents</th>
+												<th>Edit</th>
 											</tr>
 										</thead>
 										<tbody>
 											<tr>
-												<td>user one</td>
-												<td>user one</td>
-												<td>user one</td>
-												<td>user one</td>
-												<td>user one</td>
+												<td>Tiger Nixon</td>
+												<td>System Architect</td>
+												<td>Edinburgh</td>
+												<td>61</td>
+												<td>2011/04/25</td>
+												<td>$320,800</td>
+												<td>Garrett Winters</td>
+												<td>Accountant</td>
+												<td>Tokyo</td>
+												<td>63</td>
+												<td>2011/07/25</td>
+												<td>$170,750</td>
 											</tr>
+
 										</tbody>
 									</table>
 								</form>

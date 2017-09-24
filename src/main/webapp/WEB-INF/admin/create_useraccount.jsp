@@ -39,6 +39,20 @@
 								</div>
 							</div>
 							<div class="form-group">
+								<label for="input-text" class="col-sm-2 control-label">Department</label>
+								<div class="col-sm-10">
+									<input type="text" class="form-control" id="input-text"
+										placeholder="">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="input-text" class="col-sm-2 control-label">Position</label>
+								<div class="col-sm-10">
+									<input type="text" class="form-control" id="input-text"
+										placeholder="">
+								</div>
+							</div>
+							<div class="form-group">
 								<label for="input-text-help" class="col-sm-2 control-label">UserId</label>
 								<div class="col-sm-10">
 									<input type="text" class="form-control" id="input-text-help"
@@ -54,7 +68,7 @@
 							</div>
 							<div class="form-group">
 								<div class="col-sm-10 col-sm-offset-1">
-									<button type="submit" class="btn btn-default">Save</button>
+									<button type="submit" class="btn btn-lg btn-success">Save</button>
 								</div>
 							</div>
 						</form>

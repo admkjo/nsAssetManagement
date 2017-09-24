@@ -151,12 +151,12 @@ public class NavigationController {
 	public String selectedMemo() {
 		return "admin/selectedmemo";
 	}
-	
+
 	@RequestMapping(value = "/draftmemo")
 	public String draftMemo() {
 		return "admin/draftmemo";
 	}
-	
+
 	@RequestMapping(value = "/useraccount")
 	public String userAccount() {
 		return "admin/useraccount";
@@ -185,5 +185,29 @@ public class NavigationController {
 	@RequestMapping(value = "/vendors")
 	public String vendors() {
 		return "admin/vendors";
+	}
+
+	@RequestMapping(value = "/supplied_veh_report")
+	public String suppliedVehReport() {
+		return "admin/supplied_veh_report";
+	}
+
+	@RequestMapping(value = "/reconciliation_report")
+	public String reconciliationReport() {
+		return "admin/reconciliation_report";
+	}
+
+	@RequestMapping(value = "/letter_preview")
+	public String letterPreview() {
+		return "admin/letter_preview";
+	}
+
+	@RequestMapping(value = "/memo_preview")
+	public String memoPreview() {
+		return "admin/memo_preview";
+	}
+	@RequestMapping(value = "/attached_docs")
+	public String attachedDocs() {
+		return "admin/attached_docs";
 	}
 }

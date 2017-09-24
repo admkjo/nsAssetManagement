@@ -95,6 +95,7 @@
 												<i class="icon-paper-plane-1"></i> Send
 											</button>
 											<button type="submit" class="btn btn-danger">Save</button>
+											<a href='<spring:url value="letter_preview"/>'><span class="btn btn-blue-1">Preview</span></a>
 										</div>
 										<div class="col-xs-4">
 											<p class="quick-post message">

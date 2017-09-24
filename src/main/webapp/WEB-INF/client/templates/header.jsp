@@ -172,12 +172,7 @@
 		<!-- Top Bar Start -->
 		<div class="topbar">
 			<div class="topbar-left">
-				<div class="logo">
-					<h1>
-						<a href="#"><img src="${resources}assets/img/logo.png"
-							alt="Logo"></a>
-					</h1>
-				</div>
+		
 				<button class="button-menu-mobile open-left">
 					<i class="fa fa-bars"></i>
 				</button>
@@ -197,7 +192,7 @@
 							<li class="dropdown topbar-profile"><a href="#"
 								class="dropdown-toggle" data-toggle="dropdown"><span
 									class="rounded-image topbar-profile-image"><img
-										src="${resources}images/users/user-35.jpg"></span> Jane <strong>Doe</strong>
+										src="${resources}images/users/user-35.jpg"></span> User <strong>Doe</strong>
 									<i class="fa fa-caret-down"></i></a>
 								<ul class="dropdown-menu">
 									<li><a href="#">My Profile</a></li>
@@ -228,7 +223,7 @@
 					<div class="col-xs-4"></div>
 					<div class="col-xs-8">
 						<div class="profile-text">
-							Welcome <b>Jane</b>
+							Welcome <b>User</b>
 						</div>
 						<div class="profile-buttons"></div>
 					</div>
@@ -249,9 +244,9 @@
 						<li><a href='<spring:url value="transaction" />'><i
 								class='fa fa-folder-open'></i> <span>Transactions</span> <span
 								class="pull-right"> </span> </a></li>
-						<li><a href='<spring:url value="client_inbox" />'><i
+						<%-- <li><a href='<spring:url value="client_inbox" />'><i
 								class='fa fa-envelope-o'></i> <span>Letters</span> <span
-								class="pull-right"> </span> </a></li>
+								class="pull-right"> </span> </a></li> --%>
 					</ul>
 					<div class="clearfix"></div>
 				</div>
