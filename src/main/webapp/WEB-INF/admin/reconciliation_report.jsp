@@ -25,6 +25,37 @@
 
 			<div class="row">
 
+				<div class="widget">
+
+					<div class="widget-content padding">
+						<form class="form-horizontal" role="form">
+							<div class="form-group">
+								<label for="input-text" class="col-sm-2 control-label">Institution</label>
+								<div class="col-sm-10">
+								<select class="form-control">
+								 <option>SELECT AN INSTITUTION</option>
+								  <option>MINISTRY OF EDUCATION</option>
+								  <option>MINISTRY OF YOUTH AND SPORTS</option>
+								</select>
+							</div>
+							</div>
+							<div class="form-group">
+								<label for="input-text" class="col-sm-2 control-label">Suppliers</label>
+								<div class="col-sm-10">
+								<select class="form-control">
+								 <option>SELECT A SUPPLIER</option>
+								  <option>TOYOTA GHANA LIMITED</option>
+								  <option>JAPAN MOTORS</option>
+								</select>
+							</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+
 				<div class="col-md-12">
 					<div class="widget">
 
@@ -38,34 +69,37 @@
 										<thead>
 											<tr>
 												<th>NO.</th>
-												<th>Date of Entry</th>
 												<th>Type Of Vehicle</th>
 												<th>Year Of Manufacturing</th>
-												<th>Chasis Number</th>
-												<th>Engine Number</th>
-												<th>Quantity</th>
-												<th>Institution Supplied To</th>
-												<th>Date Supplied</th>
-												<th>Import Duty Exemptions</th>
-												<th>Attached Documents</th>
-												<th>Edit</th>
+												<th>Chasis Number (Institution)</th>
+												<th>Chasis Number (Supplier)</th>
+												<th>Engine Number(Institution)</th>
+												<th>Engine Number(Supplier)</th>
+												<th>Reconciled</th>
 											</tr>
 										</thead>
 										<tbody>
 											<tr>
-												<td>Tiger Nixon</td>
-												<td>System Architect</td>
-												<td>Edinburgh</td>
-												<td>61</td>
-												<td>2011/04/25</td>
-												<td>$320,800</td>
-												<td>Garrett Winters</td>
-												<td>Accountant</td>
-												<td>Tokyo</td>
-												<td>63</td>
-												<td>2011/07/25</td>
-												<td>$170,750</td>
+												<td>1</td>
+												<td>TOYOTA COROLLA</td>
+												<td>2014</td>
+												<td>IG LPK5SC9UY577757</td>
+												<td>IG LPK5SC9UY577757</td>
+												<td>A17DTE</td>
+												<td>A17DTE</td>
+												<td>YES</td>
 											</tr>
+											<tr>
+												<td>1</td>
+												<td>TOYOTA COROLLA</td>
+												<td>2014</td>
+												<td>IG LPK5SC8G757779UG</td>
+												<td>IG LPK5SC8G757779IJ</td>
+												<td>G14ERT</td>
+												<td>F5411U</td>
+												<td>NO</td>
+											</tr>
+											
 
 										</tbody>
 									</table>

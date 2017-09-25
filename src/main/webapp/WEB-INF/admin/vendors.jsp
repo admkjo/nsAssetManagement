@@ -42,12 +42,16 @@
 											<tr>
 												<th>Name</th>
 												<th>Description</th>
+												<th>User Id</th>
+												<th>Password</th>
 											</tr>
 										</thead>
 										<tbody>
 											<tr>
-												<td>company 1</td>
-												<td>company 1</td>
+												<td>TOYOTA GHANA LIMITED</td>
+												<td>AUTOMOBILE COMPANY</td>
+												<td>toyota</td>
+												<td>toyota1234</td>
 											</tr>
 										</tbody>
 									</table>

@@ -39,11 +39,26 @@
 							</div>
 						  </div>
 						  <div class="form-group">
-							<label for="input-text-help" class="col-sm-2 control-label">Ministry</label>
+							<label for="input-text" class="col-sm-2 control-label">Ministry / Agency</label>
 							<div class="col-sm-10">
-							  <input type="text" class="form-control" id="input-text-help" placeholder="">
+							  <input type="text" class="form-control" id="input-text" placeholder="">
 							</div>
 						  </div>
+		
+						  		<div class="form-group">
+								<label for="input-text" class="col-sm-2 control-label">User Id</label>
+								<div class="col-sm-10">
+									<input type="text" class="form-control" id="input-text"
+										placeholder="">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="input-text" class="col-sm-2 control-label">Password</label>
+								<div class="col-sm-10">
+									<input type="text" class="form-control" id="input-text"
+										placeholder="">
+								</div>
+							</div>
 						  
 						  </div>
 						   <button type="submit" class="btn btn-default">Submit</button>

@@ -16,14 +16,12 @@
 		<div class="content">
 			<!-- Page Heading Start -->
 			<div class="page-heading">
-				<span style="float: right;"> <a
-					href='<spring:url value="addinstitution" />'
-					class="btn btn-success btn-lg">Add New Institution</a></span>
-				<h1>
-					<i class='fa fa-file'></i> INSTITUTIONS
-				</h1>
-
-			</div>
+					<span style="float: right;"> <a th:href='@{suppliers_entries_new}'
+						class="btn btn-success btn-lg">NEW ENTRY</a></span>
+					<h1>
+						<i class='fa fa-file'></i> ENTRIES
+					</h1>
+				</div>
 			<!-- Page Heading End-->
 
 			<div class="row">
@@ -40,20 +38,35 @@
 										width="100%">
 										<thead>
 											<tr>
-												<th>Institution Name</th>
-												<th>Ministry / Agency</th>
-												<th>User Id</th>
-												<th>Password</th>
+												<th>NO.</th>
+												<th>Date of Entry</th>
+												<th>Type Of Vehicle</th>
+												<th>Year Of Manufacturing</th>
+												<th>Chasis Number</th>
+												<th>Engine Number</th>
+												<th>Institution Supplied To</th>
+												<th>Date Supplied</th>
+												<th>Import Duty Exemptions</th>
+												<th>Import Duty Details</th>
+												<th>Attached Documents</th>
 											</tr>
 										</thead>
 										<tbody>
 											<tr>
-												
-												<td>GHANA EDUCATION SERVICE</td>
-												<td>MINISTRY OF EDUCATION</td>
-												<td>education1</td>
-												<td>educat1234</td>
+												<td>1</td>
+												<td>2015-03-09</td>
+												<td>Toyota</td>
+												<td>2014-09-09</td>
+												<td>201125</td>
+												<td>320800</td>
+												<td>Ministry of Education</td>
+												<td>20-02-03</td>
+												<td>yes</td>
+												<td>import duty details</td>
+												<td><a href='<spring:url value="attached_docs" />'>
+												click to view attached docs</a></td>
 											</tr>
+
 										</tbody>
 									</table>
 								</form>

@@ -20,7 +20,7 @@
 					href='<spring:url value="createtransaction" />'
 					class="btn btn-success btn-lg"> New Entry</a></span>
 				<h1>
-					<i class='fa fa-file'></i> TRANSACTIONS
+					<i class='fa fa-file'></i> INSTITUTIONS REPORT
 				</h1>
 
 			</div>
@@ -46,7 +46,6 @@
 												<th>Year Of Manufacturing</th>
 												<th>Chasis Number</th>
 												<th>Engine Number</th>
-												<th>Quantity</th>
 												<th>Institution Supplied To</th>
 												<th>Date Supplied</th>
 												<th>Import Duty Exemptions</th>
@@ -57,12 +56,11 @@
 										<tbody>
 											<tr>
 												<td>1</td>
-												<td>2015-03-09</td>
-												<td>Toyota</td>
+												<td>2017-02-03</td>
+												<td>TOYOTA GHANA</td>
 												<td>2014-09-09</td>
 												<td>201125</td>
 												<td>320800</td>
-												<td>20</td>
 												<td>Ministry of Education</td>
 												<td>20-02-03</td>
 												<td>yes</td>

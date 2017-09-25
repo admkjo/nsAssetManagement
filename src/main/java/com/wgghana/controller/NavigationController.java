@@ -12,11 +12,16 @@ public class NavigationController {
 		return "client/clientlogin";
 	}
 
-	@RequestMapping(value = "/transaction")
-	public String transaction() {
-		return "client/transaction";
+	@RequestMapping(value = "/entries_supplier")
+	public String entriesSupplier() {
+		return "client/entries_supplier";
 	}
 
+	@RequestMapping(value = "/entries_institution")
+	public String entriesInstitution() {
+		return "client/entries_institution";
+	}
+	
 	@RequestMapping(value = "/createtransaction")
 	public String createTransaction() {
 		return "client/createtransaction";
@@ -205,6 +210,14 @@ public class NavigationController {
 	@RequestMapping(value = "/memo_preview")
 	public String memoPreview() {
 		return "admin/memo_preview";
+	}
+	@RequestMapping(value = "/institutions_report")
+	public String institutionsReport() {
+		return "admin/institutions_report";
+	}
+	@RequestMapping(value = "/suppliers_report")
+	public String suppliersReport() {
+		return "admin/suppliers_report";
 	}
 	@RequestMapping(value = "/attached_docs")
 	public String attachedDocs() {

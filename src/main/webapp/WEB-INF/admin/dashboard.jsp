@@ -21,16 +21,16 @@
 									<i class=""></i>
 								</div>
 								<div class="text-box">
-									<p class="maindata">TOTAL <b>VEHICLES</b></p>
-									<h2><span class="animate-number" data-value="2533" data-duration="3000">0</span></h2>
+									<p class="maindata">TOTAL <b>NUMBER OF VEHICLES</b></p>
+									<h2><span class="animate-number" data-value="233" data-duration="3000">0</span></h2>
 									<div class="clearfix"></div>
 								</div>
 							</div>
 							<div class="widget-footer">
 								<div class="row">
-									<div class="col-sm-12">
+									<!-- <div class="col-sm-12">
 										<i class="fa fa-caret-up rel-change"></i> <b>39%</b> increase in tracking
-									</div>
+									</div> -->
 								</div>
 								<div class="clearfix"></div>
 							</div>
@@ -44,17 +44,17 @@
 									<i class=""></i>
 								</div>
 								<div class="text-box">
-									<p class="maindata">TOTAL <b>REGISTERED INSTITUTIONS</b></p>
-									<h2><span class="animate-number" data-value="6399" data-duration="3000">0</span></h2>
+									<p class="maindata">UNRECONCILED <b>VEHICLES</b></p>
+									<h2><span class="animate-number" data-value="99" data-duration="3000">0</span></h2>
 
 									<div class="clearfix"></div>
 								</div>
 							</div>
 							<div class="widget-footer">
 								<div class="row">
-									<div class="col-sm-12">
+									<!-- <div class="col-sm-12">
 										<i class="fa fa-caret-down rel-change"></i> <b>11% </b> of expected registration 
-									</div>
+									</div> -->
 								</div>
 								<div class="clearfix"></div>
 							</div>
@@ -91,8 +91,8 @@
 									<i class=""></i>
 								</div>
 								<div class="text-box">
-									<p class="maindata">NEW LETTERS <b>RECEIVED</b></p>
-									<h2><span class="animate-number" data-value="8" data-duration="3000">0</span></h2>
+									<p class="maindata">AUCTIONED <b>VEHICLES</b></p>
+									<h2><span class="animate-number" data-value="28" data-duration="3000">0</span></h2>
 									<div class="clearfix"></div>
 								</div>
 							</div>

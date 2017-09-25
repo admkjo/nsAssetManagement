@@ -38,7 +38,7 @@
 						<div class="col-md-3">
 							<!-- Sidebar Message -->
 							<div class="btn-group new-message-btns stacked">
-								<a href='<spring:url value="client_compose"/>' class="btn btn-success btn-lg col-xs-10">Compose</a>
+								<a th:href="@{/selected_letter}" class="btn btn-success btn-lg col-xs-10">Compose</a>
 								<a class="btn btn-success md-trigger col-xs-2 btn-lg" data-modal="new-message"><i class="icon-pencil"></i></a>
 							</div>
 								<div class="list-group menu-message">

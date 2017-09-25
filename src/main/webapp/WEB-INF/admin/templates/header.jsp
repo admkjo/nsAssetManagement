@@ -257,9 +257,11 @@
 								class='fa fa-files-o'></i><span>Reports</span> <span
 								class="pull-right"><i class="fa fa-angle-down"></i></span></a>
 							<ul>
+								<li><a href='<spring:url value="institutions_report" />' ><span>Institutions Report</span></a></li>
+								<li><a href='<spring:url value="suppliers_report" />'><span>Suppliers Report</span></a></li>
 								<li><a href='<spring:url value="supplied_veh_report" />' ><span>Supplied Vehicles Report</span></a></li>
 								<li><a href='<spring:url value="reconciliation_report" />'><span>Reconciliation Report</span></a></li>
-
+								
 							</ul></li>
 					<%-- 	<li><a href='<spring:url value="settings" />'><i
 								class='fa fa-gears (alias)'></i> <span>Settings</span> <span

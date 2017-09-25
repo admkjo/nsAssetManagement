@@ -4,7 +4,7 @@
     <spring:url value="/resources/" var="resources"></spring:url>
     
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-  <!-- Footer Start -->
+  	<!-- Footer Start -->
             <footer>
                 Ministry of National Security &copy; 2017
                 <div class="footer-links pull-right">
